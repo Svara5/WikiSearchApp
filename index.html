@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wiki Search</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="wiki.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body class="container">
+    <section>
+        <form>
+            <article>
+                <label>Enter search string
+                    <input class="glyphicon glyphicon-search" id="inputValue" type="text" name="searchBox">
+                </label>
+                <button class="btn btn-primary btnSearch" id="submit">
+                    Search
+                </button>
+            </article>
+        </form>
+        <div class="displaySearch">
+            <!--<ul id="unList" style="list-style-type: none">-->
+            <article id="articles">
+            </article>
+            <!-- </ul> -->
+        </div>
+    </section>
+</body>
+
+</html>
