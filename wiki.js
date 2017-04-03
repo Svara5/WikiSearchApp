@@ -4,18 +4,21 @@ $(document).ready(function() {
 
     $("#submit").click(function(event) {
         event.preventDefault();
-        var searchString = document.getElementById("inputValue").value;
+        var searchString = document.getElementById("inputValue").value.replace(" ", "%");
         var apiEndpoint = "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + searchString + "&format=json&utf8=1"
 
 
         $.ajax({
             url: apiEndpoint,
             data: searchString,
-            dataType: 'json',
+            header: {
+                "Access-Control-Allow-Origin": "*"
+            },
+            dataType: 'jsonp',
             type: 'POST',
             // headers: { 'Api-User-Agent': 'Example/1.0' },
             success: function(data) {
-                $('#divTitle')
+                $('#articles').empty();
                 var dataStr = JSON.stringify(data);
                 var response = data.query.search;
                 if (dataStr.includes(searchString)) {

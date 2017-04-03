@@ -1,1 +1,63 @@
-style.css
+.mainNav{
+	background: #b3c6ff;
+	border-radius: 5px;
+
+}
+.btnColor{
+	background: #668cff;
+	border-radius: 5px;
+}
+.btnColor:hover{
+	background: #4d79ff;
+	border-radius: 10px;
+}
+.navBarClass{
+
+}
+#inputValue{
+	border-radius: 20px;
+}
+.secTwo{
+	margin-top: 15%;
+	position: relative;
+	margin-bottom: 10%;
+}
+body{
+	font-family: "Times New Roman", Times, serif; 
+	word-spacing: 1px;
+	background: #f2f2f2;
+}
+.footerNav{
+	background: #b3c6ff;
+	border-radius: 0;
+	padding: 10px;
+}
+#wiki-logo{
+	width: 70px;
+	height:70px;
+	float:left;
+}
+.searchNav{
+	display: inline-block;
+	margin: 10px;
+	float: right;
+}
+label{
+	margin:0;
+	padding: 10px 10px;
+}
+.navHeader{
+	margin: 0;
+}
+input{
+	padding: 5px;
+}
+.img-header{
+	padding: 25px;
+}
+#random{
+	font-size: 10px;
+}
+.btnSearch{
+	margin-bottom: 45px;
+}
