@@ -12,24 +12,27 @@
 <body class="container">
     <section class="container-fluid navbar navbar-fixed-top mainNav">
         <!--<div class="navbar navbar-fixed-top mainNav">-->
-            <div class="navbar-header img-header">
-                <img id="wiki-logo" src="assets/wiki-logo.png">
-                <h1 class="navbar-brand navHeader"><strong>Wikipedia Search</strong></h1>
-            </div>
-            <div class="form-group text-center searchNav row">
-                <label class="inputLabel">
-                    <span class="inputLabel">Enter Search String</span>
-                    <input class="form-control glyphicon glyphicon-search input-sm col-3 inputLabel" id="inputValue" type="text" size="40" name="searchBox">
-                    <a id="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_Blank">Click here for random Wikipedia page</a>
-                </label>
-                <button class="btn btn-primary btnSearch btnColor btn-xs col" id="submit">
-                    Search
-                </button>
-            </div>
+        <div class="navbar-header img-header">
+            <img id="wiki-logo" src="assets/wiki-logo.png">
+            <h1 class="navbar-brand navHeader"><strong>Wikipedia Search</strong></h1>
+        </div>
+        <div class="form-group text-center searchNav row">
+            <label class="inputLabel">
+                <span class="inputLabel">Enter Search String</span>
+                <input class="form-control glyphicon glyphicon-search input-sm col-3 inputLabel" id="inputValue" type="text" size="40" name="searchBox">
+                <a id="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_Blank">Click here for random Wikipedia page</a>
+            </label>
+            <button class="btn btn-primary btnSearch btnColor btn-xs col" id="submit">
+                Search
+            </button>
+        </div>
         <!--</div>-->
     </section>
     <section class="container-fluid secTwo">
         <!--<ul id="unList" style="list-style-type: none">-->
+        <div id= "bigTextId" class="bigText text-center">
+            <h1>Type in the Search bar to begin <span class="glyphicon glyphicon-search"></span></h1>
+        </div>
         <article id="articles">
         </article>
         <!-- </ul> -->

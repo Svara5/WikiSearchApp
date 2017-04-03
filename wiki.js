@@ -1,12 +1,13 @@
 $(document).ready(function() {
 
-
+    $("#bigTextId").css("display", "inline");
 
     $("#submit").click(function(event) {
         event.preventDefault();
+
         var searchString = document.getElementById("inputValue").value.replace(" ", "%");
         var apiEndpoint = "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + searchString + "&format=json&utf8=1"
-
+        $("#bigTextId").css("display", "none");
 
         $.ajax({
             url: apiEndpoint,
