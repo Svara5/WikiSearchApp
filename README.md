@@ -12,4 +12,4 @@ Features:
 
 A Walkthrough
 
-![alt tag](https://github.com/Svara5/WikiSearchApp/WikiSearch.gif) 
+![alt tag](https://github.com/Svara5/WikiSearchApp/master/WikiSearch.gif) 
