@@ -11,4 +11,5 @@ Features:
 - [x] Styling the page
 
 A Walkthrough
-![alt tag](https://github.com/svara5/WikiSearchApp/Master/WikiSearch.gif) 
+
+![alt tag](https://github.com/svara5/WikiSearchApp/blob/master/WikiSearch.gif) 
